@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #201b1b;
+}
+
+header {
+    background-color: #7a0619;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+#datos-personales,
+#estudios-realizados,
+#experiencia-laboral,
+#capacitaciones,
+#referencias-personales {
+    background-color: #ffe0e0;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Estilos para la imagen */
+img {
+    max-width: 100%;
+    height: auto;
+    
+    margin-top: 20px;
+}
+
+/* Estilos para las listas de estudios, experiencia laboral y capacitaciones */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para la tabla de referencias personales */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ffffff;
+}
+
+th {
+    background-color: #7a0619;
+    color: #a16666;
+}
+
+/* Estilos para enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
